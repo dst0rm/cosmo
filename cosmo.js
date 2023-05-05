@@ -13,7 +13,6 @@ function startBlyad(e) {
         d = window.innerHeight / 2;
     const c = [];
     if ((t = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 2e3)).position.z = 1e3, (n = new THREE.Scene).background = new THREE.Color(parseInt(params.bgColor, 16)), n.fog = new THREE.FogExp2(parseInt(params.fogColor, 16), params.fogIntensity), null != e) {
-        alert("Используется бесплатная версия. Посетите dev-donut.ru");
         const e = (new THREE.TextureLoader).load(""),
             o = new THREE.SpriteMaterial({
                 map: e
