@@ -14,7 +14,7 @@ function startBlyad(e) {
     const c = [];
     if ((t = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 2e3)).position.z = 1e3, (n = new THREE.Scene).background = new THREE.Color(parseInt(params.bgColor, 16)), n.fog = new THREE.FogExp2(parseInt(params.fogColor, 16), params.fogIntensity), null != e) {
         alert("Используется бесплатная версия. Посетите dev-donut.ru");
-        const e = (new THREE.TextureLoader).load("https://static.tildacdn.com/tild3835-3731-4465-b036-373561386232/free-overlay.png"),
+        const e = (new THREE.TextureLoader).load(""),
             o = new THREE.SpriteMaterial({
                 map: e
             }),
